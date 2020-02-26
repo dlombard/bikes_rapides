@@ -12,7 +12,7 @@ It uses the following main components:
   - Realm doesn't support Flutter. As such, I used Platform Channels to communicate with the native installation of Realm on both iOS and Android
 - [Google Maps for Flutter](https://pub.dev/packages/google_maps_flutter)
 
-
+You will also need a Google Map API Key to get this running :)
 -------------------------
 A few resources to get you started if this is your first Flutter project:
 
