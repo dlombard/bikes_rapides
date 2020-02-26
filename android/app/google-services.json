@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "774177159686",
+    "firebase_url": "https://bikes-rapides-8b416.firebaseio.com",
+    "project_id": "bikes-rapides-8b416",
+    "storage_bucket": "bikes-rapides-8b416.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774177159686:android:cf6d066b98c7ebed5ea187",
+        "android_client_info": {
+          "package_name": "net.dlombard.bikes_rapides"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774177159686-pe1cgoj1rfu2haj9ncbn1h1ntnqqms0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFRjiny6ZG83d-ieabx7Bjb3JRLfoR2KU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774177159686-pe1cgoj1rfu2haj9ncbn1h1ntnqqms0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
