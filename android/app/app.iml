@@ -128,7 +128,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:runner:1.1.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:monitor:1.1.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.1.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/dlombard/Documents/development/personal-projects/dlo_notes/build/app/intermediates/flutter/debug/libs.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/dlombard/Documents/development/personal-projects/bikes_rapides/build/app/intermediates/flutter/debug/libs.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: io.realm:realm-annotations:7.0.0-beta-SNAPSHOT@jar" level="project" />
     <orderEntry type="library" name="Gradle: io.flutter:flutter_embedding_debug:1.0.0-e1e6ced81d029258d449bdec2ba3cddca9c2ca0c@jar" level="project" />
     <orderEntry type="library" name="Gradle: io.flutter:armeabi_v7a_debug:1.0.0-e1e6ced81d029258d449bdec2ba3cddca9c2ca0c@jar" level="project" />

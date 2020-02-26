@@ -1,11 +1,19 @@
-# dlo_notes
+# Bikes _Rapides_
 
-A new Flutter project.
+An App to locate Bike Services Stations
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is built for both iOS and Android using [Flutter](https://flutter.dev)
 
+It uses the following main components:
+- [Firebase](https://pub.dev/packages/firebase_auth) for authentication
+- [Realm Cloud](https://realm.io) for local and cloud database + syncing. 
+  - Realm doesn't support Flutter. As such, I used Platform Channels to communicate with the native installation of Realm on both iOS and Android
+- [Google Maps for Flutter](https://pub.dev/packages/google_maps_flutter)
+
+
+-------------------------
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
