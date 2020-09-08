@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.14.0+9/android/firebase_auth.iml" filepath="$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.14.0+9/android/firebase_auth.iml" />
-      <module fileurl="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.4/android/firebase_core.iml" filepath="$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.4/android/firebase_core.iml" />
-      <module fileurl="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/android/firebase_core_web.iml" filepath="$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/android/firebase_core_web.iml" />
-      <module fileurl="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.5/android/flutter_plugin_android_lifecycle.iml" filepath="$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.5/android/flutter_plugin_android_lifecycle.iml" />
-      <module fileurl="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-0.5.24+1/android/google_maps_flutter.iml" filepath="$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-0.5.24+1/android/google_maps_flutter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="android/app" />
+      <module fileurl="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.5/android/flutter_plugin_android_lifecycle.iml" filepath="$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.5/android/flutter_plugin_android_lifecycle.iml" group="android/flutter_plugin_android_lifecycle" />
+      <module fileurl="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-0.5.24+1/android/google_maps_flutter.iml" filepath="$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-0.5.24+1/android/google_maps_flutter.iml" group="android/google_maps_flutter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-149060815/path_provider.iml" filepath="$PROJECT_DIR$/.idea/modules/-149060815/path_provider.iml" group="android/path_provider" />
     </modules>
   </component>
 </project>

@@ -1,7 +1,6 @@
 import 'package:bikes_rapides/dlo_notes_channel.dart';
 import 'package:bikes_rapides/state_model.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:provider/provider.dart';
 
 class Login extends StatefulWidget {
@@ -10,7 +9,6 @@ class Login extends StatefulWidget {
 }
 
 class LoginState extends State<Login> {
-  final _auth = FirebaseAuth.instance;
   var title = 'Login';
   var email = '';
   var password = '';
@@ -53,9 +51,9 @@ class LoginState extends State<Login> {
               ),
               RaisedButton(
                 onPressed: () async {
-                  bool r = await login();
+                  String userId = await login();
                   await loadData();
-                  if (r) {
+                  if (userId != null) {
                     Navigator.of(context).pushReplacementNamed('/app');
                   } else {
                     return showDialog(
@@ -87,21 +85,13 @@ class LoginState extends State<Login> {
     _pwdController.clear();
   }
 
-  Future<bool> login() async {
+  Future<String> login() async {
     try {
-      final AuthResult result = await _auth.signInWithEmailAndPassword(
-          email: email, password: password);
-
-      final FirebaseUser user = result.user;
-
-      IdTokenResult idTokenResult = await user.getIdToken();
-      String idToken = idTokenResult.token;
-      Provider.of<StateModel>(context, listen: false).setUser(user);
-
-      return await DloNotesChannel().login(idToken);
+      //Provider.of<StateModel>(context, listen: false).setUser(null);
+      String u = await DloNotesChannel().emailLogin(email, password);
+      return u;
     } catch (e) {
       print(e);
-      return false;
     }
   }
 

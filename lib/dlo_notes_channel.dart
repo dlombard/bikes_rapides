@@ -6,7 +6,7 @@ import 'package:bikes_rapides/state_model.dart';
 import 'package:flutter/services.dart';
 
 class DloNotesChannel {
-  static const platform = const MethodChannel('net.dlombard/dlo_notes');
+  static const platform = const MethodChannel('net.dlombard/bikes_rapides');
   static const eChannel = const EventChannel('net.dlombard/streams');
   static Stream<String> bStream;
 
@@ -62,8 +62,19 @@ class DloNotesChannel {
       bool isDoctor = await platform
           .invokeMethod('LOGIN', <String, dynamic>{'idToken': idToken});
 
-      print(isDoctor);
+      //print(isDoctor);
       return isDoctor;
+    } catch (e) {
+      print(e.toString());
+    }
+  }
+
+  Future<String> emailLogin(String email, String password) async {
+    try {
+      String userId = await platform.invokeMethod('LOGIN_EMAIL_PASSWORD',
+          <String, String>{'email': email, 'password': password});
+      print(userId);
+      return userId;
     } catch (e) {
       print(e.toString());
     }
